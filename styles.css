@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Raleway:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 112, 112);
+    overflow: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+header {
+    margin: 0 0 0 0;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: Montserrat, sans-serif;
+    color: purple;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 200px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+header h2 {
+    margin-top: -20px;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+footer h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    color: purple;
+}
